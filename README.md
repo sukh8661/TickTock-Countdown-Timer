@@ -11,9 +11,11 @@
 - Responsive design for mobile and desktop devices.
 
 ## Demo
+
 You can view a live demo of the project here: [https://tick-tock-timer.vercel.app/] .
 ##  Overview
 
+![TickTock](https://github.com/user-attachments/assets/479c3f55-8444-4074-b7fb-adb9e29058cd)
 
 
 ## Tech Stack
@@ -31,12 +33,14 @@ You can view a live demo of the project here: [https://tick-tock-timer.vercel.ap
 
 
 ## Contributions
+
 Contributions are welcome! Feel free to fork the repository, submit a pull request, or open an issue.
 
 
 
 
 ## License
+
 This project is licensed under the MIT License.
 Feel free to use, modify, and distribute this project as per the terms of the license.
 
