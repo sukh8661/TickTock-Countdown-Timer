@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer-app {
+    width: 100%;
+    max-width: 480px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 5px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-top: 0px;
+}
+
+.timer-inputs {
+    margin-bottom: 20px;
+}
+
+label {
+    display: flex;
+    margin: 10px 0 5px;
+    margin-left: 37px;
+    font-size: 1.2rem;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background: #e74c3c;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin: 5px;
+}
+
+button:hover {
+    background: #c0392b;
+}
+
+#stopBtn {
+    background: #3498db;
+}
+
+#stopBtn:hover {
+    background: #2980b9;
+}
+
+#resetBtn {
+    background: #2ecc71;
+}
+
+#resetBtn:hover {
+    background: #27ae60;
+}
+
+.countdown-display {
+    margin-top: 20px;
+}
+
+#countdown {
+    font-size: 4.5rem;
+    margin: 10px 0;
+}
+
+#message {
+    font-size: 1.2rem;
+    color: #ffdb4c;
+    margin-top: 10px;
+}

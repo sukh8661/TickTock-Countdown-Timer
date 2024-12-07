@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TickTock</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="timer-app">
+        <h1>TickTock</h1>
+        <h3>Customizable Countdown Timer</h3>
+        <div class="timer-inputs">
+            <label for="date">Select Date:</label>
+            <input type="date" id="date" required>
+            <label for="time">Select Time:</label>
+            <input type="time" id="time" required>
+            <button id="startBtn">Start Countdown</button>
+        </div>
+        <div class="countdown-display" id="countdownDisplay">
+            <h2 id="countdown">00:00:00:00</h2>
+            <p id="message"></p>
+        </div>
+    </div>
+    <script src="JS/script.js"></script>
+</body>
+</html>
